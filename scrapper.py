@@ -36,6 +36,7 @@ def constructJson(crime_map):
 		temp = {}
 		temp["id"] = index
 		temp["name"] = map
+		temp["source"] = "verified"
 		print(map)
 		print(getLatLong(map))
 		latLong = getLatLong(map).split(',')
